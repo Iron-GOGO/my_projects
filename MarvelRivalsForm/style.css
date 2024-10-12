@@ -1,0 +1,72 @@
+body {
+    background-image: url(Group\ 1\ \(2\).png);
+    background-size: cover;      /* This makes the image cover the entire screen */
+    background-position: top; /* This centers the image */
+    font-family: poppins;
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+}
+.con {
+    width: 1184px;
+    height: 842px;
+    
+    margin: 60px auto;
+    display:flex;
+}
+.com img {
+    width: 50%;
+}
+form {
+    background: rgba(255, 255, 255, 0.75); /* 0.5 represents 50% transparency */
+    
+    width: 50%;
+}
+form img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+form h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.data{
+    width: 280px;
+    height: 45px;
+    font-size: 28px;
+    margin-right: 500px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: rgba(255, 255, 255, 1);
+    background-color: transparent; /* Makes the input field's background transparent */
+    border: 1px solid #2c2c2c;        /* Example border, adjust as needed */
+    border-radius: 6px; 
+    padding-left: 16px;  
+}
+.cb {
+    margin-left: 25px;
+    font-size: 24px;
+    transform: scale(1.5);
+    margin-bottom: 50px;
+    
+}
+label {
+    margin-left: 8px;
+    font-size: 24px;
+    
+}
+a {
+    
+    margin-left: 25px;
+    font-size: 20px;
+}
+button {
+    border-radius: 4px;
+    padding: 10px 20px;
+    background: #0069CA;
+    font-size: 32px;
+    margin-left: 450px;
+    border: 0px;
+    color:rgb(255, 255, 255);
+    margin-top: 150px;
+}
